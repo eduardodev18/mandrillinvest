@@ -1,0 +1,10 @@
+.border-gradient {
+  border: 1px solid;
+  border-color: #DBFF4B
+}
+
+.bg-form {
+  background-image: url('/overlay.png');
+  background-size: cover;
+  width: 100%;
+}

@@ -1,0 +1,13 @@
+.card {
+    transition: width 1s;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    border-radius: 42px;
+    position: relative;
+}
+
+.card:hover {
+    width: 80% !important;    
+}
+

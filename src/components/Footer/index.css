@@ -1,0 +1,37 @@
+.border-gradient-purple {
+    border: 1px solid;
+    border-color: #9B8CFF
+}
+
+.border-right {
+    position: relative;
+
+   
+}
+
+.border-right::after {
+    content: '';
+    height: 100%;
+    background-color: #fff;
+    width: 1px;
+    position: absolute;
+    left: -80px;
+    top: 0px;
+}
+
+
+.border-right::after {
+    content: '';
+    height: 100%;
+    background-color: #fff;
+    width: 1px;
+    position: absolute;
+    left: -80px;
+    top: 0px;
+}
+
+@media (max-width: 1024px) {
+    .border-right::before {
+        display: none;
+    }
+}
