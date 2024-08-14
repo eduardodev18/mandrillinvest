@@ -1,0 +1,23 @@
+<svg width="108" height="108" viewBox="0 0 108 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_bf_3380_85)">
+<rect x="5" y="5" width="98" height="98" rx="49" fill="white" fill-opacity="0.03"/>
+<rect x="4.51" y="4.51" width="98.98" height="98.98" rx="49.49" stroke="#E4E4E4" stroke-opacity="0.22" stroke-width="0.98"/>
+<g clip-path="url(#clip0_3380_85)">
+<path d="M41.0912 71.9768C40.1953 71.9768 39.2993 71.6212 38.6442 70.9248L24.8809 56.2189C23.7064 54.9668 23.7064 53.0406 24.8809 51.7885L38.6367 37.0752C39.879 35.749 41.9872 35.6601 43.3349 36.8825C44.6826 38.1049 44.773 40.1793 43.5307 41.5055L31.8454 53.9963L43.5307 66.4871C44.773 67.8132 44.6902 69.8876 43.3349 71.11C42.6949 71.6879 41.8893 71.9768 41.0837 71.9768H41.0912Z" fill="#8FFF9D"/>
+<path d="M66.9163 71.9768C66.1107 71.9768 65.3051 71.6879 64.6651 71.11C63.3174 69.8876 63.227 67.8132 64.4693 66.4871L76.1546 53.9963L64.4693 41.5055C63.227 40.1793 63.3098 38.1049 64.6651 36.8825C66.0128 35.6601 68.121 35.7416 69.3633 37.0752L83.1266 51.7811C84.3012 53.0332 84.3012 54.9594 83.1266 56.2114L69.3633 70.9174C68.7082 71.6212 67.8123 71.9694 66.9163 71.9694V71.9768Z" fill="#8FFF9D"/>
+<path d="M49.8025 78C49.6293 78 49.4486 77.9852 49.2679 77.9556C47.4534 77.6666 46.2186 75.9923 46.5122 74.2068L53.2885 32.756C53.5821 30.9705 55.2913 29.7555 57.0983 30.0445C58.9128 30.3334 60.1476 32.0077 59.8539 33.7932L53.0777 75.2514C52.8142 76.8591 51.3987 78.0074 49.795 78.0074L49.8025 78Z" fill="#8FFF9D"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_bf_3380_85" x="-24.89" y="-24.89" width="157.78" height="157.78" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="14.455"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_3380_85"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_3380_85" result="shape"/>
+<feGaussianBlur stdDeviation="2" result="effect2_foregroundBlur_3380_85"/>
+</filter>
+<clipPath id="clip0_3380_85">
+<rect width="60" height="48" fill="white" transform="translate(24 30)"/>
+</clipPath>
+</defs>
+</svg>

@@ -11,3 +11,35 @@
     width: 80% !important;    
 }
 
+.card {
+    position: relative;
+    overflow: hidden;
+}
+
+.card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.card img.base-image {
+    opacity: 1;
+}
+
+.card img.hover-image {
+    opacity: 0;
+}
+
+.card:hover img.base-image {
+    opacity: 0;
+}
+
+.card:hover img.hover-image {
+    opacity: 1;
+}
+
+

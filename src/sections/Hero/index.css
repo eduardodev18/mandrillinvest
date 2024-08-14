@@ -1,0 +1,95 @@
+.letter {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 120px;
+    letter-spacing: -1px;
+    margin-bottom: 0px;
+    color: var(--wco-color-neutral-50);
+}
+
+.letter-1 {
+    position: absolute;
+    top: -0px;
+    animation-name: taglineEmerge;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.letter-2 {
+    position: absolute;
+    top: 75px;
+    animation-name: taglineEmerge;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 300ms;
+    opacity: 0;
+}
+
+
+.letter-3 {
+    position: absolute;
+    top: 142px;
+    animation-name: taglineEmerge;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 600ms;
+    opacity: 0;
+}
+
+@keyframes taglineEmerge {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes loadingButton {
+    0% {
+        background-color: rgba(33, 29, 29, 0.15);
+        transform: scale(1);
+    }
+    50% {
+        background-color: rgba(33, 29, 29, 0.3);
+        transform: scale(1.1);
+    }
+    100% {
+        background-color: rgba(33, 29, 29, 0.15);
+        transform: scale(1);
+    }
+}
+
+ @keyframes loadingButton {
+    0% {
+        background-position: 0% 50%;
+        transform: scale(1);
+    }
+    50% {
+        background-position: 100% 50%;
+        transform: scale(1);
+    }
+    100% {
+        background-position: 0% 50%;
+        transform: scale(1);
+    }
+} 
+
+.loading-button {
+    background: linear-gradient(45deg, #8FFF9D, #DBFF4B);
+    background-size: 200% 200%;
+    animation: loadingButton 2s infinite;
+    animation-delay: 1s;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.loading-button:active {
+    color: #000;
+}
+
