@@ -50,6 +50,14 @@ const Hero = () => {
         setIsPlaying(!isPlaying);
     };
 
+    const scrollToSection = (sectionId) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
+
     return (
         <div className="flex flex-col items-center justify-between px-6 lg:pb-9 xl:py-48 lg:grid lg:grid-cols-2 xl:container">
             <div className="mb-12 lg:mb-0">
@@ -69,7 +77,7 @@ const Hero = () => {
                     </strong>{" "}
                     enquanto ajuda a indústria a crescer
                 </p>
-                <button className="bg-custom-yellow text-[#101110] text-sm font-bold w-full lg:w-[221px] h-[42px] rounded-[26px] flex items-center justify-center hover:bg-custom-gradient loading-button">
+                <button onClick={() => scrollToSection("contato")} className="bg-custom-yellow text-[#101110] text-sm font-bold w-full lg:w-[221px] h-[42px] rounded-[26px] flex items-center justify-center hover:bg-custom-gradient loading-button">
                     <img
                         src="/arrow-button-menu.svg"
                         className="mr-2"

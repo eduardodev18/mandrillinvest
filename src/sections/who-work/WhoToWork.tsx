@@ -14,14 +14,20 @@ const style = {
 
 const options = {
     animationData: smileAnimation,
+    autoplay: false,
+    loop: false,
 };
 
 const optionsChart = {
     animationData: chartAnimation,
+    autoplay: false,
+    loop: false,
 };
 
 const optionsDiamond = {
     animationData: diamondAnimation,
+    autoplay: false,
+    loop: false,
 };
 
 const useScrollDirection = () => {
@@ -49,7 +55,6 @@ const useScrollDirection = () => {
 };
 
 const Example = () => {
-    const scrollDirection = useScrollDirection();
     const lottieObj = useLottie(options, style);
 
     const Animation = useLottieInteractivity({
@@ -64,11 +69,19 @@ const Example = () => {
         ],
     });
 
-    return Animation;
+    return (
+        <div
+            onMouseEnter={() => {
+                lottieObj.goToAndPlay(0, true);
+            }}
+            onMouseLeave={() => lottieObj.goToAndStop(100, true)} 
+        >
+            {Animation}
+        </div>
+    );
 };
 
 const ExampleChart = () => {
-    const scrollDirection = useScrollDirection();
     const lottieObj = useLottie(optionsChart, style);
 
     const Animation = useLottieInteractivity({
@@ -83,11 +96,19 @@ const ExampleChart = () => {
         ],
     });
 
-    return Animation;
+    return (
+        <div
+            onMouseEnter={() => {
+                lottieObj.goToAndPlay(0, true);
+            }}
+            onMouseLeave={() => lottieObj.goToAndStop(100, true)}
+        >
+            {Animation}
+        </div>
+    );
 };
 
 const ExampleDiamond = () => {
-    const scrollDirection = useScrollDirection();
     const lottieObj = useLottie(optionsDiamond, style);
 
     const Animation = useLottieInteractivity({
@@ -102,7 +123,16 @@ const ExampleDiamond = () => {
         ],
     });
 
-    return Animation;
+    return (
+        <div
+            onMouseEnter={() => {
+                lottieObj.goToAndPlay(0, true);
+            }}
+            onMouseLeave={() => lottieObj.goToAndStop(100, true)}
+        >
+            {Animation}
+        </div>
+    );
 };
 
 const WhoToWork = () => {

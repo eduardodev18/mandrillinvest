@@ -76,7 +76,7 @@ function Header() {
                         </li>
                     </ul>
 
-                    <button className="bg-custom-yellow text-[#101110] text-sm font-bold w-[221px] h-[42px] rounded-[26px] flex items-center justify-center hover:bg-custom-gradient loading-button">
+                    <button className="bg-custom-yellow text-[#101110] text-sm font-bold w-[221px] h-[42px] rounded-[26px] flex items-center justify-center hover:bg-custom-gradient loading-button"    onClick={() => scrollToSection("contato")}>
                         <img
                             src="/arrow-button-menu.svg"
                             className="mr-2"

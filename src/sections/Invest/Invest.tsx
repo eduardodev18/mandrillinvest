@@ -73,6 +73,7 @@ const Invest = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-4 gap-[26px]">
                     <div
                         data-aos="fade-up"
+                        data-aos-duration="1000"
                         className="bg-[#0C0B0B] rounded-[20px] border border-[#262525] h-[256px] flex flex-col justify-center items-center"
                     >
                         <img src="/quadro.svg" alt="" className="mb-8" />
@@ -84,6 +85,7 @@ const Invest = () => {
 
                     <div
                         data-aos="fade-up"
+                        data-aos-duration="1500"
                         className="bg-[#0C0B0B] rounded-[20px] border border-[#262525] h-[256px] flex flex-col justify-center items-center"
                     >
                         <img src="/carteira.svg" alt="" className="mb-8" />
@@ -96,6 +98,7 @@ const Invest = () => {
 
                     <div
                         data-aos="fade-up"
+                        data-aos-duration="2000"
                         className="bg-[#0C0B0B] rounded-[20px] border border-[#262525] h-[256px] flex flex-col justify-center items-center"
                     >
                         <img src="/ticket.svg" alt="" className="mb-8" />
@@ -108,6 +111,7 @@ const Invest = () => {
 
                     <div
                         data-aos="fade-up"
+                        data-aos-duration="2500"
                         className="bg-[#0C0B0B] rounded-[20px] border border-[#262525] h-[256px] flex flex-col justify-center items-center"
                     >
                         <img src="/filme.svg" alt="" className="mb-8" />
