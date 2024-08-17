@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import React, { useEffect, useState } from "react";
 import esmeraldaAnimation from "../../assets/esmeraldas.json";
 import Lottie, { useLottie, useLottieInteractivity } from "lottie-react";
+import InputMask from "react-input-mask";
 
 const style: any = {
     height: 1000,
@@ -176,10 +177,12 @@ const Invest = () => {
                                     <label className="flex font-bold text-[#262A28] mb-3">
                                         Investimento
                                     </label>
-                                    <input
-                                        type="text"
+                                    <InputMask
+                                        mask="R$ 999.999.999,99"
                                         placeholder="R$"
                                         className="w-full border p-3 rounded-3xl border-[#969090]"
+                                        required
+                                        maskChar={null}
                                     />
                                 </div>
 
