@@ -21,6 +21,13 @@ const Depositions = () => {
             role: "Funcionário Público",
             hoverImagem: "/rafael-2-hover.svg",
         },
+        {
+            id: 3,
+            image: "/ricardo.svg",
+            name: "Rafael Gomes",
+            role: "Funcionário Público",
+            hoverImagem: "/ricardo-hover.svg",
+        },
     ];
 
     useEffect(() => {
@@ -33,8 +40,8 @@ const Depositions = () => {
     return (
         <div className="bg-[#101110] relative py-10 lg:py-[136px] mb-[200px]">
             <Parallax speed={-10}>
-                <div className="grid grid-cols-1 px-6 xl:grid-cols-2 xl:container xl:px-0">
-                    <div>
+                <div className="grid grid-cols-1 px-6 xl:grid-cols-12 xl:container xl:px-0">
+                    <div className="xl:col-span-4">
                         <div className="bg-[#FE6A0F] text-[#000] w-[160px] h-[40px] rounded-[100px] uppercase font-bold flex items-center justify-center mb-12">
                             Depoimentos
                         </div>
@@ -49,7 +56,7 @@ const Depositions = () => {
                         </h2>
                     </div>
 
-                    <div className="flex flex-col xl:flex-row">
+                    <div className="xl:col-span-8 flex flex-col xl:flex-row">
                         {cardsData.map((item, index: any) => {
                             return (
                                 <div
