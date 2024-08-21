@@ -24,8 +24,8 @@ const Depositions = () => {
         {
             id: 3,
             image: "/ricardo.svg",
-            name: "Rafael Gomes",
-            role: "Funcionário Público",
+            name: "Ricardo Secunho",
+            role: "Arquiteto",
             hoverImagem: "/ricardo-hover.svg",
         },
     ];
